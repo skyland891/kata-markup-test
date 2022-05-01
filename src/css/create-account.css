@@ -1,0 +1,40 @@
+.create-account {
+    background-color: #FFFFFF;
+    padding: 115px 76px;
+    position: relative;
+    z-index: 1;
+}
+
+.create-account__between {
+    padding: 42px 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.create-account__between::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #7B8A92;
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 20px);
+}
+
+.create-account__between::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #7B8A92;
+    position: absolute;
+    top: 50%;
+    right: calc(50% + 20px);
+}
