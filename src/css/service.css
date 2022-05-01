@@ -1,0 +1,48 @@
+.service__title {
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service__subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    color: #7B8A92;
+
+}
+
+.service__buttons-wrapper {
+    padding-top: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+.service__btn {
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+
+.service__btn--facebook {
+    background-color: #255A9B;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 50px;
+    padding-right: 55px;
+    background-image: url("../img/facebook.svg");
+    background-position: 10px 12px;
+}
+
+.service__btn--linkedin {
+    background-color: #0076B6;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 58px;
+    padding-right: 62px;
+    background-image: url("../img/linkedin.svg");
+    background-position: 20px 12px;
+}

@@ -1,0 +1,22 @@
+.help {
+    display: block;
+    position: absolute;
+    width: 235px;
+    padding: 10px;
+    background-color: #fff;
+    top: 42px;
+    box-shadow: 0 0 15px rgba(123, 138, 146, 0.2);
+    -webkit-box-shadow: 0 0 15px rgba(123, 138, 146, 0.2);
+    -moz-box-shadow: 0 0 15px rgba(123, 138, 146, 0.2);
+    -ms-box-shadow: 0 0 15px rgba(123, 138, 146, 0.2);
+    -o-box-shadow: 0 0 15px rgba(123, 138, 146, 0.2);
+}
+
+.help--disabled {
+    display: none;
+}
+
+.help__text {
+    font-size: 15px;
+    color: #AFAFAF;
+}

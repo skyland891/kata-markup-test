@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Kata markup test</title>
+</head>
+<body>
+  <main class="page">
+    <div class="page__wrapper">
+      <div class="page__logo">
+        <img class="page__logo-img" src="./img/logo.svg" alt="">
+      </div>
+      <img class="page__img" src="./img/bg.jpg" alt="Iintoo">
+      <section class="create-account">
+        <div class="create-account__service service">
+          <h1 class="service__title">Get iintoo it today</h1>
+          <p class="service__subtitle">There is no charge or obligation upon registration.</p>
+          <div class="service__buttons-wrapper">
+            <button class="service__btn service__btn--facebook">Register with Facebook</button>
+            <button class="service__btn service__btn--linkedin">Register with LinkedIn</button>
+          </div>
+        </div>
+        <span class="create-account__between">OR</span>
+        <div class="create-account__form form">
+          <form action="" class="form__wrapper">
+            <div class="form__inputs">
+              <div class="form__email">
+                <label for="" class="form__label">Email</label>
+                <input class="form__input form__input--email" type="email" name="" id="">
+              </div>
+              <div class="form__phone">
+                <label for="" class="form__label">Phone</label>
+                <input class="form__input form__input--phone" type="tel" name="" id="">
+              </div>
+            </div>
+            <div class="form__investor">
+              <h2 class="form__investor-title">What type of investor are you?</h2>
+              <p class="form__investor-subtitle">Select the type of investor you are below.</p>
+              <div class="form__investor-type">
+                <div class="form__type-wrapper">
+                  <input class="form__radio" type="radio" name="type" id="individual">
+                  <label for="individual" class="form__radio-label">Individual</label>
+                  <div class="form__type-help help">
+                    <span class="help__text">I am a natural person investingon my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                  </div>
+                </div>
+                <div class="form__type-wrapper">
+                  <input class="form__radio" type="radio" name="type" id="business">
+                  <label for="business" class="form__radio-label">Business</label>
+                  <div class="form__type-help help help--disabled"></div>
+                </div>
+                <div class="form__type-wrapper">
+                  <input class="form__radio" type="radio" name="type" id="ira">
+                  <label for="ira" class="form__radio-label">IRA</label>
+                  <div class="form__type-help help help--disabled"></div>
+                </div>
+                <div class="form__type-wrapper">
+                  <input class="form__radio" type="radio" name="type" id="trust">
+                  <label for="trust" class="form__radio-label">Trust</label>
+                  <div class="form__type-help help help--disabled"></div>
+                </div>
+              </div>
+            </div>
+            <div class="form__argeement">
+                <input class="form__agreement-checkbox" type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" class="form__agreement-label">I agree to the terms and receiving notifications from iintoo&nbsp;<a href="#" class="form__view-terms">View full terms</a></label>
+            </div>
+            <button class="form__sbumit-btn" type="submit">Create Account</button>
+          </form>
+        </div>         
+      </section>
+    </div>
+  </main>
+</body>
+</html>
